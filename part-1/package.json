@@ -1,0 +1,46 @@
+{
+  "name": "asyncify",
+  "version": "1.0.0",
+  "description": "async functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "async",
+    "promise",
+    "map",
+    "filter",
+    "reduce"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "__tests__/utils/"
+    ]
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-iplayer-es6": "^3.1.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "istanbul": "^0.4.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "filehound": "^1.16.2"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6",
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "rules": {
+      "space-before-function-paren": 0
+    }
+  }
+}

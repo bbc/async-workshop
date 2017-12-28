@@ -1,0 +1,42 @@
+{
+  "name": "@bbc/part-0",
+  "version": "1.0.0",
+  "description": "Warmup ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint .",
+    "coverage": "istanbul cover _mocha -- -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbc/async-workshop.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bbc/async-workshop/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/bbc/async-workshop",
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.0.0",
+    "eslint-config-iplayer-es6": "^3.1.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "istanbul": "^0.4.1",
+    "lodash": "^4.17.4",
+    "mocha": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6",
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "rules": {
+      "space-before-function-paren": 0
+    }
+  }
+}
