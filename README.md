@@ -2,7 +2,7 @@
 
 ## Objectives
 
-By doing a workshop on asynchrons programming in Node 8, we aim to achieve:
+By doing a workshop on asynchronous programming in Node 8, we aim to achieve:
 
 * Gain familarity with async and await constructs
 * Gain familarity with the Promise API
